@@ -16,7 +16,7 @@ function App() {
           <Navbar />
             <Routes>
               <Route exact path="/" element={<Home />}/>
-              <Route exact path="/" element={<Adduser />}/>
+              <Route exact path="/adduser" element={<Adduser />}/>
             </Routes>
           
           </Router>
