@@ -44,7 +44,7 @@ export default function Home() {
                   <td style={{textAlign:"center", verticalAlign:"middle"}}>{user.username}</td>
                   <td style={{textAlign:"center", verticalAlign:"middle"}}>{user.email}</td>
                   <td style={{textAlign:"center", verticalAlign:"middle"}}>
-                    <button className="btn btn-primary mx-2">View</button>
+                    <Link className="btn btn-primary mx-2" to={`/viewuser/${user.id}`}>View</Link>
                     <Link className="btn btn-outline-primary mx-2" 
                     to={`/edituser/${user.id}`}
                     >Edit</Link>
